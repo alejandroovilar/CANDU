@@ -13,5 +13,8 @@ En el archivo CANDU-barras-parcialmente-insertadas.txt, se estudia el efecto del
 -Variación del Enriquecimiento del Combustible:
 El archivo CANDU-concentracion-uranio-5%.txt se centra en el estudio del ciclo de combustible. A diferencia del diseño estándar de los reactores CANDU, que utilizan uranio natural, en este escenario se ha incrementado el enriquecimiento de uranio de manera progresiva desde un 0,7% hasta un 5%. El objetivo de este modelo es determinar cómo influye el aumento de la concentración de U 235 en la criticidad y en la distribución de potencia del núcleo.
 
+-Implementación veneno efectivo 
+En el archivo CANDU-135Xe-Veneno-effectivo se añadió al refrigerante (agua deuterada) 0.000005% de 135Xe para simular un absorbente térmico, se controle mas la reactividad y no es dinámico.
+
 -Optimización de Fuentes y Eficiencia Computacional:
 El archivo CANDU-fuente-ciclos.txt introduce modificaciones orientadas a la metodología de cálculo. Se han integrado fuentes de neutrones específicas para estabilizar el proceso de arranque de la simulación. Paralelamente, se ha realizado un ajuste en los parámetros de ejecución reduciendo el número de ciclos. Esta modificación busca optimizar la eficiencia computacional, permitiendo obtener resultados convergentes en un tiempo de proceso significativamente menor sin sacrificar la precisión necesaria para el análisis académico. NOTA: Este código no fue considerado para el trabajo
